@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Pad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="title"><h1>Sketch Pad </h1></div>
+<div class="mode">Pencil: On</div>
+<div class="content">
+    <div class="board"></div>
+    <div class="buttons">
+        <div class="colorButtons">
+        <button onclick = "changeColor('black')"; class="colors"; id="black"></button>
+        <button onclick="changeColor('white')"; class="colors"; id="white"></button>
+        <button onclick="changeColor('red')"; class="colors"; id="red"></button>
+        <button onclick="changeColor('blue')"; class="colors"; id="blue"></button>
+        <button onclick="changeColor('yellow')"; class="colors"; id="yellow"></button>
+        <button onclick="changeColor('#b300b3')"; class="colors"; id="purple"></button>
+        <button onclick="changeColor('#33ff77')"; class="colors"; id="green"></button>
+        <button onclick="changeColor('orange')"; class="colors"; id="orange"></button>
+        <button onclick="changeColor('#ff80d5')"; class="colors"; id="pink"></button>
+    </div>
+</div>
+<div class="size">
+    <input type="text" placeholder="Size of board" value="30" onchange="changeSize(this.value)" />
+    <button>Set Size (2-100)</button>
+    <button onclick="clearBoard()"; id="clear">Clear</button>
+    </div>
+    <div class="error">Input must be between 2 and 100</div>
+</div>
+</div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
