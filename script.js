@@ -15,7 +15,7 @@ function populateBoard(size) {
     }
 
 
-populateBoard(30);
+populateBoard(40);
 
 function changeSize(input) {
     if(input >=2 && input <=100 ){
@@ -52,4 +52,5 @@ document.querySelector('body').addEventListener('click', (e) =>{
     }
     }
 });
+
 
