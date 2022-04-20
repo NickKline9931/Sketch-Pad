@@ -1,11 +1,12 @@
 .container {
     margin-top:-20px;
+   
 }
 
 .board {
     display: grid;
-    width: 400px;
-    height: 400px;
+    width: 440px;
+    height: 440px;
     border: 2px solid black;
 }
 
@@ -22,16 +23,17 @@ background: linear-gradient
 
 .colors {
     display: block;
-    height: 40px;
-    width: 40px;
+    height: 39px;
+    width: 39px;
     border-radius: 50%;
     border: 4px solid black;
     margin-bottom: 5px;
 }
 
 .buttons {
-    margin-left: -100px;
+    margin-left: -60px;
 }
+
 button {
     border-radius: 7px;
     border: 1px solid black;
@@ -69,18 +71,52 @@ button {
     background-color: orange;
 }
 
+#aqua {
+    background-color: #66ffe6;
+}
+
 .colorButtons {
-    margin-top: -402px;
+    margin-top: -439px;
 }
 
 .size {
-    margin-top: 50px;
+    display: flex;    
+    margin-top: 12px;
+    
 }
 
 h1 {
     margin-bottom: -10px;
+    margin-left: -40px;
 }
 
 .mode {
-    margin-left: -330px;
+    margin-left: -370px;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #ff6699, #7700b3);
+    align-items: center;
+}
+
+input {
+    border: 1px solid black;
+    margin-right: 5px;
+    
+}
+
+#sizeButton {
+    background-color: #e6ffff;
+}
+
+#clear {
+    height: 40px;
+    width: 100px;
+    float: right;
+    margin-right: -110px;
+    margin-top: -41px;
+    font-size: 16px;
+    padding-top: 3px;
+    background-image: linear-gradient(to bottom right,#fbffe6, #ffeecc);
+    
 }
