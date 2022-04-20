@@ -24,14 +24,15 @@
         <button onclick="changeColor('#33ff77')"; class="colors"; id="green"></button>
         <button onclick="changeColor('orange')"; class="colors"; id="orange"></button>
         <button onclick="changeColor('#ff80d5')"; class="colors"; id="pink"></button>
+        <button onclick="changeColor('#66ffe6')"; class="colors"; id="aqua"></button>
     </div>
+    <button onclick="clearBoard()"; id="clear">Clear</button>
 </div>
 <div class="size">
-    <input type="text" placeholder="Size of board" value="30" onchange="changeSize(this.value)" />
-    <button>Set Size (2-100)</button>
-    <button onclick="clearBoard()"; id="clear">Clear</button>
-    </div>
-    <div class="error">Input must be between 2 and 100</div>
+<input type="text" placeholder="Size of board" value="40" onchange="changeSize(this.value)" />
+<button id="sizeButton">Set Size (2-100)</button>
+<div class="error"> Input must be between 2 and 100 </div>
+</div>
 </div>
 </div>
     <script src="script.js">
